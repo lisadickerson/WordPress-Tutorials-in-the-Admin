@@ -17,17 +17,15 @@ __You are free to edit for your own purpose.__
 ## Re-Purposing 
 To re-purpose:
 
-  1.  Place the content you want to embed in the php function `wp_tutorials_admin_page()` 
-  1.  Wrap the content in one of the  provided class's to make it responsive.
+ 1.  Place the content you want to embed in the php function `wp_tutorials_admin_page()` 
+ 1.  Wrap the content in one of the  provided class's to make it responsive.
   For html`.section-wrap`  or `.embed-container` for pdf's and videos.
-  
-
  1. Any assets you add should be placed in the assets folder.Localize your pathing to the plugin directory using`plugin_url` 
  Codex Referance :https://codex.wordpress.org/Function_Reference/plugins_url#Default_Usage
  
-     _Examples:_
-* `src='<?php echo plugins_url( "/assets/aliaslead-logo-image-300x64.png", __FILE__ ); ?>'`
-* `<embed src="<?php echo plugins_url( "/assets/WordPress-Tutorials-v1-3.pdf", __FILE__ ); ?> #zoom=auto">`
+ _Examples:_
+    * `src='<?php echo plugins_url( "/assets/aliaslead-logo-image-300x64.png", __FILE__ ); ?>'`
+    * `<embed src="<?php echo plugins_url( "/assets/WordPress-Tutorials-v1-3.pdf", __FILE__ ); ?> #zoom=auto">`
 
 
 
