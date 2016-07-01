@@ -1,0 +1,42 @@
+/*plugin:wordpress-tutorials-in-admin*/
+/*prefix wrap other admin pages use a wrap*/
+.section-wrap {
+    max-width: 51.1912505119125em;
+    background: #fff;
+    padding: 5em;
+    margin-top: 1.5em;
+    margin-left: .5em;
+    margin-bottom: 2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.example {
+    font-style: italic;
+    font-color: #ccc;
+    font-weight: bold;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #fff;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*width: 90%;*/
+    /*height: 90%;*/
+    width: 100%;
+    height: 100%;
+    margin: 2em auto;
+}
